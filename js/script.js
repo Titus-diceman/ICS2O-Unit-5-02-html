@@ -1,48 +1,34 @@
-/* Created by: Titus diceman 
+/* Created by: Curtis Edwards
    Created on: April 2022
    This file contains the JS functions for index.html*/
 
-"use strict"
+'use strict'
 
 /**
- * Check service worker.
+ * Check servie worker.
  */
  if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("/ICS2O-UNIT-5-01-HTML/sw.js", {
-    scope: "/ICS2O-UNIT-5-01-HTML/",
+  navigator.serviceWorker.register("/ICS2O-unit-5-02-html/sw.js", {
+    scope: "/ICS2O-unit-5-02-html/",
   })
 }
-/**
- * This function generates a random number
- */
-
-const randomNumber = Math.floor(Math.random() * 6) + 1
 
 /**
- * This function updates the slider value.
+ * This function gets the number from the text field.
  */
- function updateSliderValue(valueFromSlider) {
-  document.getElementById("slider-value").innerHTML = valueFromSlider
-}
+ function buttonClicked () {
+ 
+// input
+  const integer = parseInt(document.getElementById("integer").value)
 
-console.log(randomNumber)
-
-/**
- * This function compares slider with random number.
- */
-function buttonClicked() {
-  const sliderValue = slider.value
-
-  //  block of code to be executed if slider is == to randomNumber
-
-  
-  if (sliderValue == randomNumber) {
+  // process
+  if (integer >= 0) {
     document.getElementById("answer").innerHTML =
-      "Answer is " + randomNumber + ". Correct!"
-  }
-  //  block of code to be executed if slider is != to randomNumber
-  if (sliderValue != randomNumber) {
+      "Your number is positive " 
+      console.log("positive")
+  } else {
     document.getElementById("answer").innerHTML =
-      "Answer is " + randomNumber + ". Incorrect..."
+    "Your number is negative "
+    console.log("negative") 
   }
 }
