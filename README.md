@@ -1,7 +1,7 @@
-# ICS2O-UNIT-5-02-HTML
+# ICS2O-unit-5-02-html
 
-[![GitHub's Super Linter](https://github.com/Curtis-Edwards/ICS2O-UNIT-5-02-HTML/workflows/GitHub's%20Super%20Linter/badge.svg)](https://github.com/Curtis-Edwards/ICS2O-UNIT-5-02-HTML/actions)
+[![GitHub's Super Linter](https://github.com/Titus-diceman/ICS2O-unit-5-02-html/workflows/GitHub's%20Super%20Linter/badge.svg)](https://github.com/Titus-diceman/ICS2O-unit-5-02-html/actions)
 
-[![Run on Repl.it](https://repl.it/badge/github/Curtis-Edwards/ICS2O-UNIT-5-02-HTML)](https://repl.it/github/Curtis-Edwards/ICS2O-UNIT-5-02-HTML)
+[![Run on Repl.it](https://repl.it/badge/github/Titus-diceman/ICS2O-unit-5-02-html)](https://repl.it/github/Titus-diceman/ICS2O-unit-5-02-html)
 
-This site can be found at: [https://Curtis-Edwards.github.io/ICS2O-UNIT-5-02-HTML](https://Curtis-Edwards.github.io/ICS2O-UNIT-5-02-HTML)
+This site can be found at: [https://Titus-diceman.github.io/ICS2O-unit-5-02-html](https://Titus-diceman.github.io/ICS2O-unit-5-02-html)
